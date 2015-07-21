@@ -1,6 +1,8 @@
 		$(document).ready(function() {
+		
 		var count = $('.carousel_inner img').length;
 		console.log(count);
+		
 
 		var counter = 1;
 
@@ -99,10 +101,7 @@
 			$('.carousel_inner').css('height', height);
 		});
 		
-		$(window).ready(function() {
-			var height = $('.carousel_inner img:nth-child(' + counter + ')').height();
-			$('.carousel_inner').css('height', height);
-		});
+	
 			
 
 	});

@@ -8,6 +8,9 @@
 }
 
 
+
+
+
 header.headerScroll {
 	background-color: #2F2F2F;
 	opacity: 0.75;
@@ -31,6 +34,7 @@ header.headerScroll img {
 h1 {
 	color: #D5D5D5;	
 }
+
 body {
 	background-color: #000000;
 }
@@ -263,6 +267,7 @@ section div.divisor img {
 
 section div.textCon h1.secTitle {
 	padding-bottom: 1%;	
+	font-size: 1.8rem;
 }
 
 section div.gallery_inner img.mini {
@@ -416,7 +421,8 @@ button img {
 	font-size: 200%;
 }
 
-@media (max-width: 960px){
+
+@media screen and (max-width: 960px){
 	article {
 		width: 98%;
 	}
@@ -502,4 +508,21 @@ button img {
 }
 	
 	
+}
+
+
+@media screen and (max-width: 479px) {
+	section div.divisor h1,
+	section div.divisor h4 {
+		font-size: 0.9rem;
+	}
+
+	section div.side {
+		min-width:320px;
+	}
+
+	section div.divisor h1,
+	section div.divisor h4 {
+		width: 80%;
+	}
 }
