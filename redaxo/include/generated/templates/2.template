@@ -1,0 +1,34 @@
+<section>
+        	<header>
+            	<img class = "logo" src="img/mtwLogo.png" alt = "MTW">
+                <nav>
+                    <ul>
+                    	<li class = "hamburger"><img class = "hidden" src = "img/hamburger.png">
+                        	<ul class = "dropdown">
+                                <li><a href = "#MTW">MTW</a></li>
+                                <li><a href = "#Termine">Termine</a></li>
+                                <li><a href = "#Bilder">Bilder</a></li>
+                                <li><a href = "#Presse">Presse</a></li>
+                                <li><a href = "#Kontakt">Kontakt</a></li>
+                                <li><a href = "#Impressum">Impressum</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <div class = "carousel">
+              <div class = "carousel_inner">
+              		<img class = "slide active" src = "img/hauptbild.jpg" />
+                    <img class = "slide" src = "img/hauptbild.jpg" />
+                    <img class = "slide" src = "img/hauptbild.jpg" />
+                    <img class = "slide" src = "img/hauptbild.jpg" />
+               </div>
+                    
+                <img class = "pfeile pfeilLinks" src = "img/pfeilLinks.png" alt = ""/>
+               <img class = "pfeile pfeilRechts" src = "img/pfeilRechts.png" alt="" />
+           </div>
+           		<div class = "previewGallerie">
+                </div>
+                <a name = "MTW"></a>
+       </section>
+       <div class = "clear"></div>

@@ -1,0 +1,20 @@
+<?php
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['file_id'] = '1';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['re_file_id'] = '0';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['category_id'] = '2';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['attributes'] = '';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['filetype'] = 'image/jpeg';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['filename'] = 'galleriebild.jpg';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['originalname'] = 'galleriebild.jpg';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['filesize'] = '16138';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['width'] = '232';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['height'] = '131';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['title'] = 'Galleriebild';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['createdate'] = '1437290586';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['updatedate'] = '1437290609';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['createuser'] = 'burning_mtw';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['updateuser'] = 'burning_mtw';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['revision'] = '0';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['med_description'] = '';
+$REX['MEDIA']['FILENAME']['galleriebild.jpg']['med_copyright'] = '2015';
+?>

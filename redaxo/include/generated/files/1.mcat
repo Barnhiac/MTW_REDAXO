@@ -1,0 +1,12 @@
+<?php
+$REX['MEDIA']['CAT_ID'][1]['id'] = '1';
+$REX['MEDIA']['CAT_ID'][1]['name'] = 'bilder für slider';
+$REX['MEDIA']['CAT_ID'][1]['re_id'] = '0';
+$REX['MEDIA']['CAT_ID'][1]['path'] = '|';
+$REX['MEDIA']['CAT_ID'][1]['createdate'] = '1437290502';
+$REX['MEDIA']['CAT_ID'][1]['updatedate'] = '1437290502';
+$REX['MEDIA']['CAT_ID'][1]['createuser'] = 'burning_mtw';
+$REX['MEDIA']['CAT_ID'][1]['updateuser'] = 'burning_mtw';
+$REX['MEDIA']['CAT_ID'][1]['attributes'] = '';
+$REX['MEDIA']['CAT_ID'][1]['revision'] = '0';
+?>

@@ -1,0 +1,29 @@
+<h1 class = "secTitle">Kontakt</h1>
+            <h2 class = "subTitle">Die MTW Coverband "Volle Kraft" aus Nurnberg freut sich auf Ihre Anfrage</h2>
+            
+            <div class = "divisor kontaktNummer">
+            	<h1>Telefon: 0911 - 644 415</h1>
+                <h4>Werner Voelkl</h4>
+            </div>
+            
+            <form>
+            	<div class = "nameEmail">
+            	<h1>Name</h1>
+                <input type = "text" name = "name" />
+                
+                <h1>Email</h1>
+                <input type = "email" name = "email" />
+               	</div>
+                
+                <div class = "nachricht">
+                <h1>Nachricht</h1>
+                <textarea name = "nachricht" rows = "7" cols = "50"></textarea>
+                </div>
+                <button type = "submit">
+                	<div class = "sendButton">
+                	<h1>Senden</h1>
+                    <img src="img/pfeilRechts.png" alt = "senden">
+                    </div>
+                </button>
+                
+            </form>

@@ -1,0 +1,70 @@
+<?php
+                $__rex_tpl1 = new rex_template(1);
+                eval('?>'.rex_var::handleGlobalVarParams("REX_TEMPLATE", unserialize("a:0:{}"), $this->replaceCommonVars($__rex_tpl1->getTemplate(), 1)));
+                ?>
+<body>
+    <article>
+      <?php
+                $__rex_tpl2 = new rex_template(2);
+                eval('?>'.rex_var::handleGlobalVarParams("REX_TEMPLATE", unserialize("a:0:{}"), $this->replaceCommonVars($__rex_tpl2->getTemplate(), 2)));
+                ?>
+<a name = "MTW"></a>
+    <section class = "bodySec">
+    
+    <?php echo rex_var::handleGlobalVarParams("REX_ARTICLE", unserialize("a:0:{}"), $this->getArticle(1)); ?>
+
+    <img class = "trenner" src = "img/trenner.png" />
+    </section>
+    <section class = "bodySec">
+    <a name = "Termine">
+    <?php echo rex_var::handleGlobalVarParams("REX_ARTICLE", unserialize("a:0:{}"), $this->getArticle(2)); ?>
+ <a name = "Bilder"></a>
+    <img class = "trenner" src = "img/trenner.png" />
+
+    </section>
+
+    <section>
+       
+              <h1 class = "secTItle">Bilder</h1>
+              <h2 class = "subTitle">Aufnahmen seit 2012</h2>
+              <div class = "gallery_outer">
+             </div>
+               <div class = "gallery">
+                     <div class = "images"></div>
+                    <img class = "pfeil pfeilRechts" src = "img/pfeilRechts.png" />
+                    <img class = "pfeil pfeilLinks" src = "img/pfeilLinks.png" />
+                   </div>
+                           <?php echo rex_var::handleGlobalVarParams("REX_ARTICLE", unserialize("a:0:{}"), $this->getArticle(3)); ?>
+
+
+              </div>
+  <a name = "Presse">
+        <img class = "trenner" src = "img/trenner.png" />
+
+
+    </section>
+
+
+   <section class = "presse">
+      
+
+        <?php echo rex_var::handleGlobalVarParams("REX_ARTICLE", unserialize("a:0:{}"), $this->getArticle(4)); ?>
+<a name = "Kontakt">
+        <img class = "trenner" src = "img/trenner.png" />
+
+   </section>
+
+<section>
+
+<?php
+                $__rex_tpl4 = new rex_template(4);
+                eval('?>'.rex_var::handleGlobalVarParams("REX_TEMPLATE", unserialize("a:0:{}"), $this->replaceCommonVars($__rex_tpl4->getTemplate(), 4)));
+                ?>
+<img class = "trenner" src = "img/trenner.png" />
+
+</section>
+
+</article>
+
+</body>
+</html>

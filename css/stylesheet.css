@@ -1,0 +1,505 @@
+*, html, body {
+	margin: 0;
+	color: white;
+	font-family: 'Open-sans', sans-serif;
+}
+.clear {
+	clear: both;	
+}
+
+
+header.headerScroll {
+	background-color: #2F2F2F;
+	opacity: 0.75;
+}
+
+header.headerScroll img.logo {
+	padding-top: 0;
+}
+
+header.headerScroll img {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.smallLogo {
+	width: 90px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+h1 {
+	color: #D5D5D5;	
+}
+body {
+	background-color: #000000;
+}
+
+article {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+section {
+	width: 100%;
+	max-width: 960px;	
+	position: relative;
+}
+header {
+	position:fixed;
+	z-index: 99;
+	width:100%;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+header img.logo{
+	float: left;
+	padding-top: 50px;
+	max-width: 100%;
+	height:auto;	
+}
+header nav ul.dropdown{ 
+	float: right;
+	padding-top: 100px;
+	list-style-type: none;
+}
+
+
+header nav ul.dropdown li {
+	text-align: right;	
+	border-bottom: solid #B9B9B9 1px;
+	padding-bottom: 2px;
+}
+
+header nav ul.dropdown li a {
+	text-decoration:none;
+	color: #ffffff;
+	font-family: 'Open sans', sans-serif;
+	padding-right: 10px;
+	padding-left: 20px;
+	font-size: 1.2rem;
+}
+
+ul.dropdown {
+	padding-left: 0;
+}
+ul li a {
+	text-decoration: none;
+}
+
+.collapsedList {
+	display: none;
+}
+
+.expandedList {
+	display: block;
+}
+
+.fixedUl {
+	position: fixed;
+	top: 0;
+}
+
+.hidden {
+	display: none;
+}
+
+li.hamburger img {
+	cursor:pointer;
+	float:right;
+	margin-top: 10px;
+}
+
+div.carousel {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+div.carousel div.carousel_inner {
+	position: relative;
+	height: 750px;
+}
+
+div.carousel div.carousel_inner img {
+	position: absolute;
+}
+
+div.carousel img.pfeil {
+	margin-top: 150px;
+	cursor: pointer;
+	margin-left: 20px;
+}
+
+div.carousel img.slide {
+	display: none;
+	max-width: 100%;
+	height: auto;
+}
+
+div.carousel img.active {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+img.pfeile {
+	position: absolute;
+	top: 50%;	
+	z-index: 99;
+	cursor: pointer;
+}
+
+img.pfeilLinks {
+	left: -4%;
+}
+
+img.pfeilRechts {
+	right: -4%;	
+}
+
+div.previewGallerie {
+	float: right;	
+}
+
+div.previewGallerie img {
+	cursor: pointer;
+	border: solid white 1px;
+	margin-left: 15px;	
+}
+div.previewGallerie img {
+	max-width: 100px;	
+	opacity: 0.4;
+}
+
+div.previewGallerie img.currentPic {
+	opacity: 1;
+	max-width: 100px;
+}
+
+section.bodySec {
+	margin-top: 40px;	
+}
+
+section h2.subTitle {
+	font-size: 1rem;
+	font-weight: 100;
+	color: #b5b5b5;
+	max-width: 50%;
+}
+
+section p.side {
+	width: 49.5%;
+	float: left;
+	color: #b5b5b5;	
+	margin-top: 2%;
+}
+
+section img.trenner{
+	opacity: 0.4;	
+	margin-top: 10%;
+	margin-bottom: 5%;
+	max-width: 100%;
+	height: auto;
+}
+
+section div.side {
+	width: 48.5%;
+	float: left;
+}
+
+section div.vidCon iFrame {
+	width: 100%;	
+	height: 270px;
+}
+
+section div.textCon {
+	margin-left: 2%;	
+}
+
+section.presse div.textCon {
+	margin-left: 0;
+	margin-right: 2%;
+}
+section div.divisor {
+	border-top: solid #7E7E7E 1px;
+	border-bottom: solid #7e7e7e 1px;		
+}
+
+section div.textCon div.middleDiv {
+	border-top: solid black 1px;
+	border-bottom: solid black 1px;	
+}
+
+section div.textCon div.divisor a {
+	text-decoration: none;
+}
+
+section div.divisor h1, section div.textCon div.divisor h4 {
+	width: 95%;
+	float: left;
+	font-weight: 100;
+}
+
+section div.textCon div.divisor h1 {
+	padding-top: 10px;
+	color: #E7E7E7;
+}
+
+section div.textCon div.divisor h4 {
+	color: #A2A2A2;	
+}
+
+section div.divisor img {
+	padding-top: 20px;
+	padding-bottom: 20px;	
+}
+
+section div.textCon h1.secTitle {
+	padding-bottom: 1%;	
+}
+
+section div.gallery_inner img.mini {
+	width: 	24%;
+	cursor: pointer;
+}
+
+
+.gallery_outer {
+	position: fixed;
+	display: none;
+	height: 100vh;
+	width: 100%;
+	background-color: white;
+	opacity: 0.5;
+	z-index: 99;
+	left:0;
+	top:0;
+}
+
+.gallery_inner img{
+	cursor:pointer;
+	width: 24%;
+}
+
+.gallery_container {
+	position: fixed;
+	top: 40%;
+	left: 0;
+	right: 0;
+	height: 0;
+	width: 1px;
+	text-align: center;
+	z-index: 199;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gallery {
+	display: none;
+	text-align: left;
+	background-color: black;
+	
+}
+
+.images img {
+	width: auto;
+	position: absolute;
+	z-index: 199;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+}
+
+.gallery img.pfeil {
+	margin-top: 10%;
+	position: absolute;
+	z-index: 99;
+	display: none;
+	cursor:pointer;
+	width:40px;
+}
+
+.gallery img.pfeilRechts {
+	right: -15%;
+}
+
+.gallery img.pfeilLinks {
+	left: -15%;
+}
+
+.gallery img.slide {
+	display: none;
+}
+
+
+div.kontaktNummer {
+	width: 49%;	
+	margin-top: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%
+}
+
+div.kontaktNummer h4 {
+	color: #b5b5b5;
+	font-weight: 100;
+}
+
+form {
+	width: 100%;	
+}
+form h1 {
+	font-weight: 100;
+	margin-top: 15px;
+	margin-bottom: 5px;	
+}
+input {
+	background-color: #000000;
+	border: solid #4B4B4B 1px;
+	width: 100%;
+	height: 30px;	
+}
+
+textarea {
+	background-color: #000000;
+	border: solid #4B4B4B  1px;
+	width: 100%;
+	
+	
+}
+
+div.nameEmail {
+	float: left;
+	width: 49%;	
+}
+div.nachricht {
+	float: left;
+	top: 0;
+	width: 49%;
+	margin-left: 2%;
+}
+
+button {
+	background-color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5rem;	
+	border: solid black 1px;
+	cursor: pointer;
+	float: right;
+}
+
+button h1 {
+	float: left;	
+	font-weight: 100;
+}
+button img {
+	padding-top: 12%;
+	padding-left: 20px;
+	float: right;
+}
+
+.error {
+	color: red;
+	font-size: 200%;
+}
+
+.success {
+	color: white;
+	font-size: 200%;
+}
+
+@media (max-width: 960px){
+	article {
+		width: 98%;
+	}
+	
+	section div.nameEmail, 
+	section div.nachricht, 
+	section button, 
+	section button h1,
+	section div.side,
+	section p.side {
+		float: none;
+		min-width:400px;
+		width: 100%;
+	}
+	
+	section button img {
+		float: none;
+	}
+	
+	section div.nameEmail,
+	div.nachricht {
+		width: 100%;
+		margin-left: 0;	
+	}
+	
+	div.kontaktNummer {
+		width: 100%;
+	}
+	
+	img.pfeilLinks {
+		left: 2%;
+	}
+	
+	img.pfeilRechts {
+		right: 2%;
+	}
+	
+	
+	div.sendButton h1,
+	div.sendButton img,
+	button {
+		float: none;
+		display:inline-block;	
+	}
+	
+	button {
+		position: relative;	
+		
+	}
+	div.sendButton img {
+		padding-top:18px;
+		position: absolute;
+		top: 0;
+		right: 0;
+	
+	}
+	
+	.gallery img.pfeil {
+	margin-top: 25%;
+	position: absolute;
+	z-index: 299;
+	display: none;
+	cursor:pointer;
+	width: 20px;
+	}
+
+	.gallery img.pfeilRechts {
+	right: 0;
+	}
+
+	.gallery img.pfeilLinks {
+	left: 0;
+	}
+	
+	.images img {
+	width: auto;
+	position: absolute;
+	z-index: 199;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+}
+	
+	
+}

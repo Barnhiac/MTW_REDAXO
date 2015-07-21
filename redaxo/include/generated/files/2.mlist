@@ -1,0 +1,4 @@
+<?php
+$REX['MEDIA']['MEDIA_CAT_ID'][2][0] = 'galleriebild.jpg';
+$REX['MEDIA']['MEDIA_CAT_ID'][2][1] = 'galleriebild_1.jpg';
+?>

@@ -1,0 +1,94 @@
+?><?php if ($this->ctype == '4' || ($this->ctype == '-1')) { ?><div class = "side textCon">
+<h1 class = "secTitle">Presse</h1>
+
+
+<a href = "#"  target = "_blank">
+
+<div class = "divisor">
+<h1>Lieder am See</h1>
+<h4>Samstag, 27. Juni 19:00Uhr</h4>
+<img src = "img/pfeilRechts.png" />
+</div>
+</a>
+
+<a href = "#" target = "_blank">
+
+<div class = "divisor middleDiv">
+<h1>MTW in Langwasser</h1>
+<h4>Samstag, 15. August ab 15:00Uhr</h4>
+<img src = "img/pfeilRechts.png" />
+</div>
+</a>
+
+<a href = "#" target = "_blank">
+
+<div class = "divisor">
+<h1>Ausstellung Anne Frank in Nurnberg</h1>
+<h4>Samstag, 15 Juni 2016</h4>
+<img src = "img/pfeilRechts.png" />
+</div>
+</a>
+
+</div>
+
+
+<div class = "side vidCon">
+<iframe src = "https://www.youtube.com/embed/rlPofne6rMM" frameborder = 0 allowfullscreen></iframe>
+
+</div><?php } if($this->ctype == '1' || $this->ctype == '-1'){ ?><h1 class = "secTitle">MTW</h1>
+<h2 class = "subTitle">Die STS Coverband aus Nürnberg</h2>
+<p class = "side">Wir geben volle Kraft um Sie mit Songs und Musik der österreichischen Liedermachergruppe STS zu unterhalten. Wir wenden uns bewusst an die Fans von STS und spielen Austropop. Lassen Sie sich musikalisch mit österreichischem Rock und Pop verwöhnen, denn wir geben „Volle Kraft“.</p>
+<p class = "side">„Die Ö-Drei aus Franken“ - Michael Lehner (Solo-Gitarre und Gesang), Thomas Schrollinger (Gitarre und Gesang) und Werner Völkel (Gitarre und Gesang). Weiterhin Roland Rettenbacher an den Keyboards, Mirko Karafiat am Schlagzeug und Udo Baldewein am Bass STS-Musik live und mit der Hand gemacht – „Volle Kraft“ – Die STS Cover-Band aus Nürnberg.</p><?php } if($this->ctype == '2' || $this->ctype == '-1'){ ?><div class = "side vidCon">
+<iframe src = "https://www.youtube.com/embed/oWUUefnlQSs" frameborder = 0 allowfullscreen></iframe>
+
+</div><div class = "side textCon">
+<h1 class = "secTitle">Termine</h1>
+
+
+<a href = "#"  target = "_blank">
+
+<div class = "divisor">
+<h1>Sommernachtskonzert mit MTW</h1>
+<h4>Samstag, 27. Juni 19:00Uhr</h4>
+<img src = "img/pfeilRechts.png" />
+</div>
+</a>
+
+<a href = "http://www.liederamsee.de/" target = "_blank">
+
+<div class = "divisor middleDiv">
+<h1>MTW bei &quot;Lieder am See&quot; 2015</h1>
+<h4>Samstag, 15. August ab 15:00Uhr</h4>
+<img src = "img/pfeilRechts.png" />
+</div>
+</a>
+
+<a href = "#" target = "_blank">
+
+<div class = "divisor">
+<h1>Rock im Park 2016</h1>
+<h4>Samstag, 15 Juni 2016</h4>
+<img src = "img/pfeilRechts.png" />
+</div>
+</a>
+
+</div>
+
+
+<?php } if($this->ctype == '3' || $this->ctype == '-1'){ ?><?php
+
+$category = OOMediaCategory::getCategoryById(2);
+$mediafiles = $category->getFiles();
+$out = "<div class = 'gallery_inner'>";
+
+
+foreach ($mediafiles as $media) {
+	$name = $media->getFileName();
+        $out .= "<img src = 'files/".$name."'/>";
+
+};
+
+$out.= "</div>";
+echo($out);
+
+?><?php } ?>
